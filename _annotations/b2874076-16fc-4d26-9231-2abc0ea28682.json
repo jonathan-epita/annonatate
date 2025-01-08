@@ -1,0 +1,38 @@
+---
+canvas: "https://jonathan-epita.github.io/annonatate/img/derivatives/iiif/unchat/canvas/unchat-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "nez",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jonathan-epita",
+                "name": "jonathan-epita"
+            },
+            "created": "2025-01-08T16:49:04.687Z",
+            "modified": "2025-01-08T16:49:07.285Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jonathan-epita.github.io/annonatate/img/derivatives/iiif/unchat/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://jonathan-epita.github.io/annonatate/img/derivatives/iiif/unchat/canvas/unchat-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2915.037109375,1703.4700927734375,564.042236328125,673.7171630859375"
+        }
+    },
+    "id": "b2874076-16fc-4d26-9231-2abc0ea28682.json",
+    "motivation": "commenting"
+}
