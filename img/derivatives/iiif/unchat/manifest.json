@@ -1,12 +1,9 @@
 ---
-added: 2025-01-08 16&#58;44&#58;42.238180
-thumbnail: https://jonathan-epita.github.io/annonatate/img/derivatives/iiif/unchat/chat/full/188,/0/default.jpg
-title: Un chat
-user: jonathan-epita
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://jonathan-epita.github.io/annonatate/img/derivatives/iiif/unchat/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/unchat/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -24,7 +21,7 @@ user: jonathan-epita
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://jonathan-epita.github.io/annonatate/img/derivatives/iiif/unchat/canvas/unchat-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/unchat/canvas/unchat-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -33,7 +30,7 @@ user: jonathan-epita
       },
       "thumbnail": [
         {
-          "id": "https://jonathan-epita.github.io/annonatate/img/derivatives/iiif/unchat/chat/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/unchat/chat/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -41,30 +38,36 @@ user: jonathan-epita
       "width": 6016,
       "items": [
         {
-          "id": "https://jonathan-epita.github.io/annonatate/img/derivatives/iiif/unchat/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/unchat/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://jonathan-epita.github.io/annonatate/img/derivatives/iiif/unchat/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/unchat/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://jonathan-epita.github.io/annonatate/img/derivatives/iiif/unchat/chat/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/unchat/chat/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4000,
                 "width": 6016,
                 "service": [
                   {
-                    "id": "https://jonathan-epita.github.io/annonatate/img/derivatives/iiif/unchat/chat",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/unchat/chat",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://jonathan-epita.github.io/annonatate/img/derivatives/iiif/unchat/canvas/unchat-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/unchat/canvas/unchat-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/unchat-1-list.json",
+          "type": "AnnotationPage"
         }
       ]
     }
